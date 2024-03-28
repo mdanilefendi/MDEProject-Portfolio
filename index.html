@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Wed May 31 2023 17:34:08 GMT+0000 (Coordinated Universal Time) -->
 <html
   data-wf-domain="devfolio-5eb48a.webflow.io"
   data-wf-page="6460aa9aee128df08971e741"
@@ -6,7 +7,7 @@
 >
   <head>
     <meta charset="utf-8" />
-    <title>Hai! - MDEFolio - Portfolio</title>
+    <title>Hai! - MDEFolio - Web Developer</title>
     <meta
       content="DevFolio - Webflow HTML website template"
       property="og:title"
@@ -234,7 +235,7 @@
                     <div class="hero-text-wrapper">
                       <div class="margin-bottom margin-small">
                         <h1>
-                          I&#x27;m a software engineer and teacher based in Indonesia,
+                          I&#x27;m a web developer based in Indonesia,
                           specializing in MERN Stack Technology.
                         </h1>
                       </div>
@@ -299,7 +300,7 @@
                 <div class="margin-bottom margin-large">
                   <div class="text-align-center">
                     <div class="max-width-large align-center">
-                      <div class="text-color-grey">I Know about</div>
+                      <div class="text-color-grey">Trusted by</div>
                     </div>
                   </div>
                 </div>
@@ -723,10 +724,7 @@
                                   <div>Web Development</div>
                                 </div>
                                 <div class="projects-tag-item">
-                                  <div>Articulate Storyline</div>
-                                </div>
-                                <div class="projects-tag-item">
-                                  <div>Done</div>
+                                  <div>Shopify</div>
                                 </div>
                               </div>
                               <div class="projects-button-wrapper">
@@ -820,9 +818,6 @@
                                 <div class="projects-tag-item">
                                   <div>Web development</div>
                                 </div>
-                                <div class="projects-tag-item">
-                                  <div>On Progress</div>
-                                </div>
                                 <div
                                   class="projects-tag-item w-condition-invisible"
                                 >
@@ -880,7 +875,7 @@
                         class="projects-item"
                       >
                         <a
-                          href="http://google.com"
+                          href="http://webflow.com"
                           target="_blank"
                           class="projects-item-link w-inline-block"
                           ><div class="projects-image-wrapper">
@@ -918,9 +913,6 @@
                                 <div class="projects-tag-item">
                                   <div>Front-end development</div>
                                 </div>
-                                <div class="projects-tag-item">
-                                  <div>On Progress</div>
-                                </div>
                                 <div
                                   class="projects-tag-item w-condition-invisible"
                                 >
@@ -978,7 +970,7 @@
                         class="projects-item"
                       >
                         <a
-                          href="http://google.com"
+                          href="http://webflow.com"
                           target="_blank"
                           class="projects-item-link w-inline-block"
                           ><div class="projects-image-wrapper">
@@ -1019,9 +1011,6 @@
                                 <div class="projects-tag-item">
                                   <div>React</div>
                                 </div>
-                                <div class="projects-tag-item">
-                                  <div>On Progress</div>
-                                </div>
                                 <div
                                   class="projects-tag-item w-condition-invisible"
                                 >
@@ -1084,7 +1073,7 @@
                         class="projects-item"
                       >
                         <a
-                          href="http://google.com"
+                          href="http://webflow.com"
                           target="_blank"
                           class="projects-item-link w-inline-block"
                           ><div class="projects-image-wrapper">
@@ -1128,9 +1117,6 @@
                                 <div class="projects-tag-item">
                                   <div>Back-end development</div>
                                 </div>
-                                <div class="projects-tag-item">
-                                  <div>On Progress</div>
-                                </div>
                               </div>
                               <div class="projects-button-wrapper">
                                 <div
@@ -1183,7 +1169,7 @@
                         class="projects-item"
                       >
                         <a
-                          href="http://google.com"
+                          href="http://webflow.com"
                           target="_blank"
                           class="projects-item-link w-inline-block"
                           ><div class="projects-image-wrapper">
@@ -1217,9 +1203,6 @@
                                 </div>
                                 <div class="projects-tag-item">
                                   <div>Front-end development</div>
-                                </div>
-                                <div class="projects-tag-item">
-                                  <div>On Progress</div>
                                 </div>
                                 <div
                                   class="projects-tag-item w-condition-invisible"
@@ -1288,7 +1271,7 @@
                     <h2>Customer testimonials</h2>
                   </div>
                   <p class="text-size-medium text-color-grey">
-                    Some opinions from customers [Parody].
+                    Some opinions from customers.
                   </p>
                 </div>
                 <div class="testimonials-component">
@@ -1395,7 +1378,8 @@
                           for my website project. They were incredibly
                           professional, efficient, and skilled at what they do.
                           The website they created for me is perfect—exactly
-                          what I wanted. I highly recommend Danil to anyone seeking top-notch web development
+                          what I wanted. I highly recommend [Nama Web Developer]
+                          to anyone seeking top-notch web development
                           services.&quot;
                         </div>
                       </div>
@@ -1754,6 +1738,11 @@
                       data-wf-element-id="e083816f-bae2-0538-8d7d-059d1fd9c821"
                     >
                       <div class="form-field-wrapper">
+                        <input
+                          type="hidden"
+                          name="contact_number"
+                          value="180102"
+                        />
                         <label for="Contact-5-Name" class="field-label"
                           >Name</label
                         >
@@ -2051,5 +2040,35 @@
       crossorigin="anonymous"
     ></script>
     <script src="scripts.js" type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init({
+          publicKey: "BVW-zHA9X5gHCdk0E",
+        });
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .getElementById("wf-form-Contact")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            // these IDs from the previous steps
+            emailjs.sendForm("service_d1jgkcr", "contact_form", this).then(
+              () => {
+                console.log("SUCCESS!");
+              },
+              (error) => {
+                console.log("FAILED...", error);
+              }
+            );
+          });
+      };
+    </script>
   </body>
 </html>
